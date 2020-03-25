@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>pokemones</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a id="btn-versus" href=""><img src="./img/versus.png" width="100" height="100"
+                    class="mt-5 mb-5 imagen-versus"></a>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div id="pokemon_1" class="col-md-4 text-right">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 id="nombre-pokemon-1" class="mr-5 pr-5"></h6>
+                    </div>
+                    <div class="col-md-12">
+                        <img src="./img/silueta_pokemon_2.png" id="img-pokemon-1" alt="pokemon_1" width="200"
+                            height="150">
+                    </div>
+                    <div id="datos_pokemon_1" hidden="true" class="col-md-12">
+                        <div class="col-md-12">
+                            <p class="pr-5">Vida: <span id="healt_pokemon_1"
+                                    class="badge badge-pill badge-success w-50"></span></p>
+                        </div>
+                        <div class="col-md-12">
+                            <button id="btn_ataque_pokemon_1" class="btn btn-info btn-block btn-lg">Atacar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pt-5 text-center">
+                <h5 id="nombre_ataque"></h5>
+                <div id="loader"></div>
+                <img id="imagen_poder" src="" alt="" width="100" height="100">
+                <h4><span id="poder_ataque" class="badge badge-pill badge-danger"></span></h4>
+            </div>
+            <div id="pokemon_2" class="col-md-4 text-left">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 id="nombre-pokemon-2" class="ml-5 pl-5"></h6>
+                    </div>
+                    <div class="col-md-12">
+                        <img src="./img/silueta_pokemon_2.png" id="img-pokemon-2" alt="pokemon_2" width="200"
+                            height="150">
+                    </div>
+                    <div id="datos_pokemon_2"  hidden="true" class="col-md-12">
+                        <div class="col-md-12">
+                            <p class="pl-5">Vida: <span id="healt_pokemon_2"
+                                    class="badge badge-pill badge-success w-50"></span></p>
+                        </div>
+                        <div class="col-md-12">
+                            <button id="btn_ataque_pokemon_2" class="btn btn-info btn-block btn-lg">Atacar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="ataque-pokemon" class="col-md-12 text-center">
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
