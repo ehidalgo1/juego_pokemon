@@ -1,43 +1,58 @@
-.imagen-versus{
-background-color: skyblue;
-border-radius: 50px;
-border-style: solid;
-border-color: blue;
-
+.imagen-versus {
+  background-color: skyblue;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: blue;
 }
 
-#img-pokemon-1{
-    -moz-transform: scaleX(-1); /* Firefox */
--o-transform: scaleX(-1); /* Opera */
--webkit-transform: scaleX(-1); /* Chrome y Safari */
-transform: scaleX(-1); /* w3org */
-filter: FlipH; /* Internet Explorer */
+#img-pokemon-1 {
+  -moz-transform: scaleX(-1);
+  /* Firefox */
+  -o-transform: scaleX(-1);
+  /* Opera */
+  -webkit-transform: scaleX(-1);
+  /* Chrome y Safari */
+  transform: scaleX(-1);
+  /* w3org */
+  filter: FlipH;
+  /* Internet Explorer */
 }
 
-#loader{
+.rotar-imagen {
+  -moz-transform: scaleX(-1);
+  /* Firefox */
+  -o-transform: scaleX(-1);
+  /* Opera */
+  -webkit-transform: scaleX(-1);
+  /* Chrome y Safari */
+  transform: scaleX(-1);
+  /* w3org */
+  filter: FlipH;
+  /* Internet Explorer */
+}
+
+#loader {
   visibility: hidden;
   width: 80px;
   height: 80px;
-
   border: 2px solid #f3f3f3;
-  border-top:3px solid #f25a41;
+  border-top: 3px solid #f25a41;
   border-radius: 100%;
-
   position: absolute;
-  top:0;
-  bottom:0;
-  left:0;
+  top: 0;
+  bottom: 0;
+  left: 0;
   right: 0;
   margin: auto;
-
   animation: spin 1s infinite linear;
 }
 
 @keyframes spin {
   from {
-      transform: rotate(0deg);
-  } to {
-      transform: rotate(360deg);
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
@@ -46,4 +61,13 @@ filter: FlipH; /* Internet Explorer */
 }
 
 
-  
+.div-imagen-poder {
+  width: 100px;
+  height: 100px;
+  text-align: right;
+  transition: width 1s;
+}
+
+.div-imagen-poder:hover {
+  width: 300px;
+}
