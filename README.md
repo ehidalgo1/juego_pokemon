@@ -6,12 +6,12 @@ juego de batalla pokemon con javascript y html5
 Este es un juego simple de batalla pokemon donde se seleccionan dos pokemones aleatoriamente.
 El juego es idealmente para dos jugadores.
 
-#Como comenzar
+# Como comenzar
  
  - Descargar el juego
  - Abrir el archivo "index.html"
  
-#Reglas
+# Reglas
 
  - Presionar el botón "VS" para seleccionar los pokemones
  - Presionar el botón "Atacar" para atacar al otro pokemon
